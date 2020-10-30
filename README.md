@@ -6,7 +6,7 @@ Contains 2 .py files
 basic.py, method.py
 - Output events.csv, nodes.csv, final_evaluation.csv.
 
-From basic.py and for every window W of length L we call the method.py sending the values:
+From basic.py and for every window W of length L we call the method.py, sending the values:
 - Factors, which is the number of factors R in tensor decomposition.
 - l_size, which is the Length L of every Window W in timestamps.
 - stations, which is the number of stations (nodes), participating in our network.
