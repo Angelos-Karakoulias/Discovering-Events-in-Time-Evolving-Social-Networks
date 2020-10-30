@@ -24,3 +24,7 @@ Then we have to format this data to a list in order to decompose them. For this 
  
 ## Output Data format
 Events.csv: a file containing the events detected from our algorithm with the following format: ``` Window Length, Number of factors, Event Timestamp, Event activity score```
+
+Nodes.csv: a file containing the nodes participating on a event with the format:```Window Length, Number of Factors, Event Timestamp, Event Activity score, Participating Node```
+
+
