@@ -5,6 +5,7 @@ Processing time-evolving social networks in order to detect anomaly instants, na
 Contains 2 .py files 
 basic.py, method.py
 - Output events.csv, nodes.csv, final_evaluation.csv.
+
 From basic.py and for every window W of length L we call the method.py sending the values:
 - Factors, which is the number of fuctor in tensor decomposition.
 - l_size, which is the Length of every Window in timestamps.
@@ -19,4 +20,7 @@ Then we have to format this data to a list in order to decompose them. For this 
  - Time (the hour the trip took place)
  - Nodes (the starting station)
  - Nodes (the ending station)
+ 
+ \line
+ After we call method.py
  
