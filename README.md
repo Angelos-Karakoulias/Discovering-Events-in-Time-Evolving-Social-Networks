@@ -1,4 +1,4 @@
-# Event-detection-in-real-time-data-
+# Discovering Events in Time Evolving Social Networks
 Processing time-evolving social networks in order to detect anomaly instants, namely moments when the network behavior deviates from the remaining by using a sliding window decomposition with statistical tools.
 
 ## File Structure & running
