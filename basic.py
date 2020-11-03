@@ -24,7 +24,7 @@ final_nodes = []
 
 
 
-df = pd.read_csv("D:\Πρακτική Δημόκριτος\ianeikosi.csv")
+df = pd.read_csv(ianeikosi.csv)
 df = df.rename(columns = {'Start station number' : 'start number', 'End station number':'end number','Start date':'start date'}, inplace = False)
 #We  keep the data from the first 6 days
 df = df.loc[df['start date'] < '2020-01-07 00:00:30']
