@@ -7,17 +7,18 @@ from method import Wintended
 candidates = []  # which r are candidates
 instants = []  # t as an instant
 instants_values = []
-stations = 551
-l_size = 12
-factors = 3
+stations = 551 #Nodes
+l_size = 12 #Window Length L
+factors = 3 #number of R
 per_data_time = np.zeros(l_size)
 per_data_station = np.zeros(stations)
 antistixisi =[]
 antistixisi.append(0)
 timestamp = 144
 times = int(timestamp / l_size) #number of repetitions until all data are covered
+#the following tables are going to save the final results
 final_event = []
-nodes = []
+nodes = [] 
 events = []
 final_events = []
 final_nodes = []
@@ -110,5 +111,5 @@ for y in range(times): # Event detection for every window
     for i in range(len(nodes)):
         final_nodes.append([nodes[i][0],nodes[i][1]])  #we add currents participating nodes to total participating nodes
 
-print(final_event,len(final_events))
+print(final_event,len(final_events))        #PRINT final results
 print(final_nodes,len(final_nodes))
