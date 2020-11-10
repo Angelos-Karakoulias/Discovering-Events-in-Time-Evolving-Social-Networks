@@ -26,7 +26,7 @@ Events.csv: a file containing the detected events from our algorithm with the fo
 
 Nodes.csv: a file containing the nodes participating on a event with the format:```Window Length, Number of Factors, Event Timestamp, Event Activity score, Participating Node```
 
-Final_results.csv: a file which is not an immediate result from our code, but emerge from it's results, using every time a different model (factors, window length). Here we rank our events based on the number of different models detecting them (total of 16 models) and their activity score Format:```Timestamp, number of models detecting it, activity score, Rank```
+Final_results.csv: a file which is not an immediate result from our code, but emerges from it's results, using every time a different model (factors, window length). Here we rank our events based on the number of different models detecting them (total of 16 models) and their activity score Format:```Timestamp, number of models detecting it, activity score, Rank```
 
 ## Reference
 Fernandes S., Fanaee-T H., Gama J. (2019) Evolving Social Networks Analysis via Tensor Decompositions: From Global Event Detection Towards Local Pattern Discovery and Specification. In: Kralj Novak P., Šmuc T., Džeroski S. (eds) Discovery Science. DS 2019. Lecture Notes in Computer Science, vol 11828. Springer, Cham. https://doi.org/10.1007/978-3-030-33778-0_29
