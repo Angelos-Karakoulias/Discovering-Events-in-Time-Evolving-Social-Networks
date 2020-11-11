@@ -102,4 +102,4 @@ for i in range(144):
         final[m][0] = i
         m+=1
 
-print(final)
+print(final) #final is the list of final_results.csv
