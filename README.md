@@ -2,7 +2,7 @@
 Processing time-evolving social networks in order to detect anomaly instants, namely moments when the network behavior deviates from the remaining by using a sliding window decomposition with statistical tools.
 
 ## File Structure & running
-Contains 3 Python 3.x version files: *basic.py*, *method.py*,*final_results.py*. It will also be necessary to have Tensorly, Numpy, Pandas.
+Contains 3 Python 3.x version files: *basic.py*, *method.py*, *final_results.py*. It will also be necessary to have Tensorly, Numpy, Pandas.
 - Output events.csv, nodes.csv, final_evaluation.csv.
 
 From *basic.py* and for every window W of length L we call the *method.py*, sending the values:
