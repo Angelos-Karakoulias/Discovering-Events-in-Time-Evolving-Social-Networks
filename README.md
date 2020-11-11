@@ -3,7 +3,7 @@ Processing time-evolving social networks in order to detect anomaly instants, na
 
 ## File Structure & running
 Contains 3 Python 3.x version files: *basic.py*, *method.py*, *final_results.py*. It will also be necessary to have Tensorly, Numpy, Pandas.
-- Output events.csv, nodes.csv, final_evaluation.csv.
+- Output events.csv, nodes.csv, final_results.csv.
 
 From *basic.py* and for every window W of length L we call the *method.py*, sending the values:
 - Factors, which is the number of factors R in tensor decomposition.
@@ -27,7 +27,7 @@ In *final_results.py* we import all events results from *basic.py* for the 16 di
 
 *Nodes.csv*: a file containing the nodes participating on a event with the format:```Window Length, Number of Factors, Event Timestamp, Event Activity score, Participating Node```
 
-*Final_results.csv*: a file which emerges from *final_results.py*, using every time a different model (factors, window length). Here we rank our events based on the number of different models detecting them (total of 16 models) and their activity score Format:```Timestamp, number of models detecting it, activity score, Rank```
+*Final_results.csv*: a file which emerges from *final_results.py* where we rank the events detected from different models (window length L, factors R) based on the number of models detecting them (total of 16 models) and their activity score Format:```Timestamp, number of models detecting it, activity score, Rank```
 
 ## Reference
 Fernandes S., Fanaee-T H., Gama J. (2019), *Evolving Social Networks Analysis via Tensor Decompositions: From Global Event Detection Towards Local Pattern Discovery and Specification*. In: Kralj Novak P., Šmuc T., Džeroski S. (eds) Discovery Science. DS 2019. Lecture Notes in Computer Science, vol 11828. Springer, Cham. https://doi.org/10.1007/978-3-030-33778-0_29
